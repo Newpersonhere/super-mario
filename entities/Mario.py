@@ -43,7 +43,7 @@ class Mario(EntityBase):
         self.inAir = False
         self.inJump = False
         self.powerUpState = 0
-        self.invincibilityFrames = 0
+        self.invincibilityFrames = 10
         self.traits = {
             "jumpTrait": JumpTrait(self),
             "goTrait": GoTrait(smallAnimation, screen, self.camera, self),
